@@ -1,7 +1,7 @@
 # Angular Shopping UI
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.8.
-It is a simple shopping UI where users can browse products that are all taken from an API. Users can search products by name, and view details where (if you are on desktop) a pop-up dialog is prompted for more info and a description about the specific product. 
+It is a simple shopping UI where users can browse products that are all taken from an API. Users can search products by name, and view details where (if you are on desktop) a pop-up dialog is prompted for more info and a description about the specific product is shown.
 
 ## Development server
 
