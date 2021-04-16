@@ -1,0 +1,12 @@
+
+
+  <div class="title">{{productItem.name}}</div>
+  <div class="product-image">
+    <img src="{{productItem.image}}"/>
+  </div>
+  <div class="price-container">
+    <p>${{productItem.price}}</p>
+  </div>
+  <div class="buy-btn-stay">
+  <button mat-raised-button (click)="openDialog()" id="buyBtn" class="buy-button">Buy Now</button>
+  </div>

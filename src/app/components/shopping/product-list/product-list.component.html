@@ -1,0 +1,16 @@
+<div className="searchBox-container">
+  <table className="elementsContainer">
+    <div ng-controller="mycontroller">
+      <input [(ngModel)]="searchText" id="search-bar" placeholder=" Search Product . . ." (input)="Search()" />
+    </div>
+  </table>
+</div>
+
+
+<div class="product-list-container">
+  <div class="card" *ngFor = "let product of productList">
+  <app-product-item [productItem]="product"></app-product-item>
+  </div>
+</div>
+
+

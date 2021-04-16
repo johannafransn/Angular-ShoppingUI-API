@@ -1,0 +1,15 @@
+
+<router-outlet></router-outlet>
+
+<div class="product-detail-container">
+  <div class="card-detail">
+<div class="title-detail">{{productDetail.name}} ${{productDetail.price}}</div>
+<div class="product-image-detail">
+  <img src="{{productDetail.image}}"/>
+</div>
+<div class="description-detail"> {{productDetail.description}} </div>
+  <button routerLink="" class="cancel-btn-detail-det">Cancel</button>
+  <button class="details-buy-btn-det">Buy</button>
+  </div>
+</div>
+
